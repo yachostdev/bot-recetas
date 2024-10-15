@@ -1,0 +1,96 @@
+{
+  "recetas": [
+    {
+      "nombre": "Calentado con huevo",
+      "tipo": "desayuno",
+      "ingredientes": ["huevo", "arroz", "frijoles"],
+      "pasos": [
+        "En una sartén, calentar el arroz y los frijoles previamente cocidos.",
+        "Freír un huevo en una sartén aparte.",
+        "Colocar el huevo frito sobre el calentado y servir."
+      ]
+    },
+    {
+      "nombre": "Arepa con queso y aguacate",
+      "tipo": "desayuno",
+      "ingredientes": ["arepa", "queso", "aguacate"],
+      "pasos": [
+        "Asar la arepa en una sartén hasta que esté dorada.",
+        "Agregar queso fresco sobre la arepa caliente.",
+        "Cortar el aguacate en rodajas y servir junto con la arepa."
+      ]
+    },
+    {
+      "nombre": "Changua",
+      "tipo": "desayuno",
+      "ingredientes": ["leche", "huevo", "cilantro"],
+      "pasos": [
+        "Hervir la leche y añadir un huevo.",
+        "Cocinar hasta que el huevo esté escalfado.",
+        "Agregar cilantro fresco y un poco de sal antes de servir."
+      ]
+    },
+    {
+      "nombre": "Bandeja paisa",
+      "tipo": "almuerzo",
+      "ingredientes": ["carne molida", "arroz", "frijoles", "plátano"],
+      "pasos": [
+        "Cocinar los frijoles y el arroz por separado.",
+        "Freír la carne molida con condimentos hasta que esté dorada.",
+        "Freír el plátano hasta que esté dorado.",
+        "Servir el arroz, frijoles, carne molida y plátano en un plato."
+      ]
+    },
+    {
+      "nombre": "Ajiaco",
+      "tipo": "almuerzo",
+      "ingredientes": ["pollo", "papa", "mazorca", "guascas"],
+      "pasos": [
+        "Cocinar el pollo junto con las papas y la mazorca.",
+        "Añadir las guascas para darle sabor y cocinar hasta que todo esté tierno.",
+        "Servir con crema de leche y alcaparras al gusto."
+      ]
+    },
+    {
+      "nombre": "Sancocho de gallina",
+      "tipo": "almuerzo",
+      "ingredientes": ["gallina", "yuca", "papa", "plátano"],
+      "pasos": [
+        "Cocinar la gallina en una olla con suficiente agua.",
+        "Añadir la yuca, las papas y el plátano cortado.",
+        "Cocinar todo junto hasta que esté tierno, añadir sal y servir caliente."
+      ]
+    },
+    {
+      "nombre": "Ensalada de aguacate y tomate",
+      "tipo": "cena",
+      "ingredientes": ["aguacate", "tomate", "cebolla"],
+      "pasos": [
+        "Cortar el tomate, el aguacate y la cebolla en trozos pequeños.",
+        "Mezclar todo en un bol y agregar un poco de sal y aceite de oliva.",
+        "Servir fresco."
+      ]
+    },
+    {
+      "nombre": "Arroz con pollo ligero",
+      "tipo": "cena",
+      "ingredientes": ["pollo", "arroz", "zanahoria", "guisantes"],
+      "pasos": [
+        "Cocinar el arroz hasta que esté listo.",
+        "Freír el pollo con un poco de aceite hasta que esté dorado.",
+        "Añadir la zanahoria rallada y los guisantes al pollo y cocinar unos minutos.",
+        "Mezclar con el arroz y servir."
+      ]
+    },
+    {
+      "nombre": "Arepa de huevo con ensalada de repollo",
+      "tipo": "cena",
+      "ingredientes": ["arepa", "huevo", "repollo"],
+      "pasos": [
+        "Freír la arepa y luego hacer un pequeño corte para añadir el huevo dentro. Freír nuevamente.",
+        "Cortar el repollo en tiras finas y aliñarlo con un poco de sal y limón.",
+        "Servir la arepa rellena junto con la ensalada de repollo."
+      ]
+    }
+  ]
+}
