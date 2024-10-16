@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# Bot de Recetas de Cocina Colombiana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del Proyecto
 
-Currently, two official plugins are available:
+Este proyecto es un bot de recetas de cocina. Su propósito es sugerir recetas basadas en los ingredientes proporcionados por el usuario, y ajustarlas de acuerdo a la hora del día (desayuno, almuerzo o cena). Utiliza ingredientes típicos de una alacena colombiana y está diseñado para ofrecer una experiencia amigable para aquellos que desean preparar platos típicos de manera sencilla.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Características del Bot
+- **Interacción con el Usuario**: El bot pide al usuario que ingrese 3 ingredientes, luego sugiere una receta apropiada.
+- **Recetas basadas en la Hora del Día**: El bot decide si sugerir recetas de desayuno, almuerzo o cena en función de la hora actual.
+- **Gestión del Estado con Zustand**: Se utiliza Zustand para manejar el estado del chat y los intentos fallidos.
+- **Asistencia Adicional**: Si el bot no encuentra una receta adecuada en más de dos intentos, ofrece la opción de ser transferido a un asesor.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
+- **React** (con **TypeScript**) para el desarrollo del frontend.
+- **Zustand** para la gestión del estado del chat.
+- **JSON** como base de datos para almacenar recetas.
+- **Tailwind CSS** para el diseño de la interfaz del usuario.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Clonación e Instalación del Proyecto
 
-- Configure the top-level `parserOptions` property like this:
+Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 1. Clonar el Repositorio
+```bash
+$ git clone https://github.com/yachostdev/bot-recetas
+$ cd bot-recetas
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2. Instalar Dependencias
+Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+```bash
+$ npm install
 ```
+
+### 3. Ejecutar el Proyecto
+Para ejecutar el proyecto localmente:
+```bash
+$ npm run dev
+```
+Esto ejecutará una instancia de desarrollo del bot, que podrás ver accediendo a `http://localhost:3000` en tu navegador.
+
+## Estructura del Proyecto
+- **/src**: Contiene todos los archivos de código fuente del bot, incluyendo componentes de React y gestión del estado.
+- **/data/recetas.json**: Archivo JSON con la base de datos de recetas, que se consulta para ofrecer sugerencias de comidas.
+- **/store/chatStore.ts**: Implementación de Zustand para gestionar el estado del chat y manejar los intentos fallidos.
+
+## Cómo Funciona el Bot
+1. El usuario ingresa 3 ingredientes típicos colombianos.
+2. El bot verifica la hora del día y sugiere una receta correspondiente (desayuno, almuerzo o cena).
+3. Si el bot no encuentra una receta adecuada tras 3 intentos, se sugiere la transferencia a un asesor.
+
+

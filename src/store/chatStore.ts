@@ -146,8 +146,8 @@ No he encontrado una receta con esos ingredientes para ${tipoComida}. Intenta co
             },
           ];
 
-          // Si ha fallado 3 veces, pasar a un agente
-          if (nuevosIntentosFallidos >= 3) {
+          // Si ha fallado 2 veces, pasar a un agente
+          if (nuevosIntentosFallidos >= 2) {
             nuevosMensajes = [
               ...nuevosMensajes,
               {
