@@ -91,6 +91,72 @@
         "Cortar el repollo en tiras finas y aliñarlo con un poco de sal y limón.",
         "Servir la arepa rellena junto con la ensalada de repollo."
       ]
+    },
+    {
+      "nombre": "Arroz Atollado de Pollo",
+      "tipo": "almuerzo",
+      "ingredientes": ["pollo", "arroz", "pimentón", "cebolla", "zanahoria", "chorizo"],
+      "pasos": [
+        "En una sartén grande, sofreír la cebolla, el pimentón y la zanahoria picados hasta que estén dorados.",
+        "Agregar el chorizo y el pollo en trozos y cocinar hasta que el pollo esté dorado.",
+        "Añadir el arroz y cocinar mezclando bien con los vegetales y el chorizo.",
+        "Agregar agua o caldo hasta cubrir el arroz y cocinar a fuego lento hasta que el arroz esté listo y el atollado tenga una consistencia cremosa."
+      ]
+    },
+    {
+      "nombre": "Fríjoles Antioqueños con Chicharrón",
+      "tipo": "almuerzo",
+      "ingredientes": ["frijoles", "chicharrón", "plátano", "yuca", "zanahoria"],
+      "pasos": [
+        "Cocinar los frijoles con zanahoria picada hasta que estén tiernos.",
+        "En una sartén, freír el chicharrón hasta que esté dorado y crujiente.",
+        "Freír el plátano y la yuca por separado hasta que estén dorados.",
+        "Servir los frijoles con el chicharrón, plátano y yuca."
+      ]
+    },
+    {
+      "nombre": "Sopa de Lentejas con Espinaca",
+      "tipo": "almuerzo",
+      "ingredientes": ["lentejas", "zanahoria", "espinaca", "papa", "cebolla"],
+      "pasos": [
+        "En una olla grande, sofreír la cebolla y la zanahoria picadas hasta que estén doradas.",
+        "Agregar las lentejas y agua suficiente, y cocinar hasta que las lentejas estén tiernas.",
+        "Añadir las papas en trozos y cocinar hasta que estén blandas.",
+        "Finalmente, agregar las hojas de espinaca y cocinar por 5 minutos más antes de servir."
+      ]
+    },
+    {
+      "nombre": "Pescado Sudado con Coco",
+      "tipo": "cena",
+      "ingredientes": ["pescado", "leche de coco", "pimentón", "tomate", "cebolla"],
+      "pasos": [
+        "Sofreír la cebolla, el pimentón y el tomate en una sartén.",
+        "Añadir la leche de coco y llevar a ebullición.",
+        "Agregar el pescado en trozos y cocinar a fuego lento hasta que esté tierno.",
+        "Servir el pescado acompañado de arroz blanco."
+      ]
+    },
+    {
+      "nombre": "Tamal Colombiano",
+      "tipo": "desayuno",
+      "ingredientes": ["harina de maíz", "pollo", "zanahoria", "arvejas", "hojas de plátano"],
+      "pasos": [
+        "Mezclar la harina de maíz con agua para formar una masa suave.",
+        "Colocar un poco de masa en una hoja de plátano.",
+        "Añadir un trozo de pollo, zanahoria en rodajas y arvejas encima de la masa.",
+        "Cerrar la hoja de plátano formando un paquete y cocinar al vapor durante 1 hora."
+      ]
+    },
+    {
+      "nombre": "Arepa de Choclo con Queso",
+      "tipo": "desayuno",
+      "ingredientes": ["maíz dulce", "queso", "leche", "harina de maíz"],
+      "pasos": [
+        "Licuar el maíz dulce con un poco de leche hasta obtener una masa suave.",
+        "Agregar un poco de harina de maíz para dar consistencia.",
+        "Formar las arepas y asarlas en una sartén hasta que estén doradas por ambos lados.",
+        "Agregar una porción de queso en el centro antes de servir."
+      ]
     }
   ]
 }

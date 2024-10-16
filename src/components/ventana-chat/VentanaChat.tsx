@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useChatStore } from "../../store/chatStore";
-// import MensajeChat from './MensajeChat';
+import MensajeChat from "../mensaje-chat/MensajeChat";
 
 const VentanaChat: React.FC = () => {
   // Obtener los mensajes del estado global usando Zustand
@@ -20,10 +20,10 @@ const VentanaChat: React.FC = () => {
   }, [mensajes]);
 
   return (
-    <div className="relative h-[80vh] w-full max-w-3xl mx-auto overflow-y-auto border-gray-300 rounded-lg shadow-sm p-4 bg-white">
+    <div className="relative h-[80vh] w-full max-w-3xl mx-auto overflow-y-auto border border-gray-300 rounded-lg shadow-sm p-4 bg-white">
       {/* Recorrer el array de mensajes y renderizar cada uno */}
       {mensajes.map((mensaje) => (
-        // <MensajeChat key={mensaje.id} mensaje={mensaje} />
+        <MensajeChat key={mensaje.id} mensaje={mensaje} />
       ))}
       {/* Div oculto para mantener el scroll al final del contenedor */}
       <div ref={referenciaFinalChat}></div>
